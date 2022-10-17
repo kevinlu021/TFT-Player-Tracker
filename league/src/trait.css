@@ -1,0 +1,52 @@
+.trait {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    position: relative;
+
+}
+body{
+font-family: 'Open Sans', sans-serif;
+}
+
+
+.circle {
+    position: absolute;
+    width:40px;
+    overflow: hidden;
+    height: 40px;
+}
+.unit {
+    width: 40px;
+    height: 40px;
+    margin: 1.5px 1.5px 0px 1.5px;
+    text-align: center;
+    border-radius: 20%;
+}
+
+.stars {
+    text-align: center;
+    font-size: 60%;
+}
+
+.text-center {
+    display: inline-block;
+}
+
+.center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.absolute-center {
+  height: 100vh; /* Magic here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+    display: inline-block
+}
+
